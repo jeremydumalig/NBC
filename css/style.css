@@ -1,0 +1,117 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family: "Helvetica", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color: white;
+    background-color: black;
+}
+
+/* big heading titles */
+
+.heading {
+    background: url("../img/gym.jpg") no-repeat center center fixed;
+    position: relative;
+    opacity: 1;
+    background-position: 0 auto;
+    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: scroll;
+    min-height: 605px;
+}
+
+@media screen and (min-height: 606px){
+    .heading {min-height: 703px}
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.text2 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    letter-spacing: 8px;
+    text-transform:uppercase;
+    display: none;
+}
+.text3 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    letter-spacing: 8px;
+    text-transform:uppercase;
+    display: none;
+}
+
+.border {
+    background-color:#000;
+    opacity: 0.9;
+    color:#fff;
+    padding:20px;
+    line-height: 2;
+}
+.border3 {
+    background-color:#000;
+    opacity: 0.9;
+    color:#fff;
+    padding:17px;
+    line-height: 2;
+}
+
+@media screen and (max-width: 900px) {
+    .text {font-size: 17px}
+    .border {padding: 17px}
+}
+@media screen and (max-width: 700px) {
+    .text {display: none}
+    .text2 {display: initial}
+}
+@media screen and (max-width: 500px) {
+    .text2 {display: none;}
+    .text3 {display: initial}
+}
+@media screen and (max-width: 350px) {
+    .text3 {font-size: 17px}
+    .border3 {padding: 17px}
+}
+
+/* sections */
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: black;
+    color: white;
+}
+
+.blue {
+    color: #0083BB;
+    font-weight: bold;
+}
+
+.picture-section {
+    min-height: 100px;
+    background-color: black;
+    top: 50px;
+    position: relative;
+    width: 100%;
+    height: 230px;
+    text-align: center;
+}

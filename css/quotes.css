@@ -1,0 +1,44 @@
+.q-button {
+    text-align: center;
+    font-size: 50px;
+}
+
+#quote-gen {
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    border: 3px solid #0083BB;
+}
+
+.button-text {
+    font-size: 30px;
+    color: #0083BB;
+    font-weight: bold;
+}
+
+#quote1 {
+    display: block;
+    font-size: 13px;
+}
+#quote2 {
+    display: none;
+    font-size: 13px;
+}
+#date1 {
+    display: block;
+    font-size: 13px;
+}
+
+#dalailama {
+    position: relative;
+    text-align: center;
+    height: 250px;
+    top: -50px;
+    border: 10px ridge #0083BB;
+}
+
+@media screen and (max-width: 700px) {
+    .dalailama {width: 300px}
+    .quote1 {display: none}
+    .quote2 {display: block}
+}

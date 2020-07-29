@@ -1,0 +1,40 @@
+.highlightY {
+  background-color: yellow;
+  width: 100px;
+  display: inline;
+}
+.highlightB {
+  background-color: blue;
+  width: 100px;
+  display: inline;
+}
+.highlightR {
+  background-color: red;
+  width: 100px;
+  display: inline;
+}
+.highlightG {
+  background-color: green;
+  width: 100px;
+  display: inline;
+}
+.colorB {
+  color: blue;
+  width: 100px;
+  display: inline;
+}
+.colorP {
+  color: purple;
+  width: 100px;
+  display: inline;
+}
+.colorR {
+  color: red;
+  width: 100px;
+  display: inline;
+}
+.colorY {
+  color: yellow;
+  width: 100px;
+  display: inline;
+}
