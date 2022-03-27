@@ -1,0 +1,146 @@
+.navbar-blue {
+    background-color: #0083BB;
+}
+
+.nb-div {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.nb-div ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 1;
+    font-size: 0;
+}
+
+ul li {
+    display: inline-block;
+    float: left;
+}
+
+ul li:hover {
+    background: #565656;
+}
+
+ul li ul {
+    position: absolute;
+    display: none;
+    max-width: 110px;
+}
+.home-navbar ul {
+    position: absolute;
+    display: none;
+    max-width: 119px;
+}
+
+ul li ul li {
+    background: black;
+    display: block;
+}
+.home-navbar ul li {
+    background: black;
+    display: block;
+}
+
+.navbar-item {
+    font-size: 12px;
+}
+.navbar-thing {
+    font-size: 12px;
+}
+
+ul li ul li:hover {
+    background: #565656;
+}
+.home-navbar ul li:hover {
+    background: #565656;
+}
+
+#navbar-logo {
+    height: 46px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+#nb-l:hover {
+    background-color: black;
+}
+
+.homebar {
+    display: block;
+}
+
+.inactive:not(.navbar-blue) {
+    position: absolute;
+    top: -1000px;
+}
+
+ul li:hover:not(.home-navbar) ul {
+    display: block;
+    position: absolute;
+    top: 56px;
+}
+
+.nb-div ul li ul li a {
+    padding: 5px 10px;
+}
+
+.active {
+    background-color: #0083BB;
+}
+
+.hidden {
+    display: block;
+}
+
+@media screen and (max-width: 675px) {
+    .hidden {
+        position: absolute;
+        top: -1000px;
+    }
+    .home-navbar:hover ul {
+        display: block;
+        position: absolute;
+        top: 56px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .navbar-blue {
+        position: absolute;
+        top: -1000px;
+    }
+}
+
+.toc-block {
+    position: absolute;
+    display: none;
+    max-width: 300px;
+}
+
+.blue-num {
+    color: #0083BB;
+    font-size: 12px;
+}
+
+.toc-column {
+    float: left;
+    width: 50%;
+}
